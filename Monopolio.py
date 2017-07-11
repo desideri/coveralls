@@ -20,8 +20,6 @@ class Celda:
         self.precio = precio
         self.renta = renta
 
-  def __str__(self):
-        return self.dueno
 
 class Juego:
     def validar_movimiento(self,celda,turnoPersona):
