@@ -41,7 +41,6 @@ class Juego:
     			turnoPersona.monto = turnoPersona.monto - celda.precio
     			return "Usted ha comprado una propiedad"
     		else:
-    			print("Sigue jugando")
     			return "Sigue jugando"
         else:
           if celda.dueno == turnoPersona.nombre:
