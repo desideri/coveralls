@@ -6,11 +6,11 @@ from Monopolio import *
 
 class Test(unittest.TestCase):
     def test1(self):
-        celda1 = Celda("Janina", 1, "Propiedad", 150, 50)
+        celda1 = Celda("Janina", 1, "", 150, 50)
         persona1 = Persona("Cristina", 140,"si")
         juego = Juego()
         msg = juego.validar_movimiento(celda1,persona1)
-        self.assertEquals(msg,"Perdio")
+        self.assertEquals(msg,"No Valido")
 
 if __name__ == '__main__':
     unittest.main()
