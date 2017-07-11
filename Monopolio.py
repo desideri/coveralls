@@ -45,7 +45,7 @@ class Juego:
         else:
           if celda.dueno == turnoPersona.nombre:
               print("es el mismo dueno")
-              return "Esta proiedad es suya"
+              return "Esta proiedad es suya, continua jugando"
           else:
             if turnoPersona.monto < celda.renta:
                 print("pierde el juego no tiene dinero para pagar")
